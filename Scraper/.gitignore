@@ -1,0 +1,51 @@
+# Scraper-specific Git Ignore
+
+# Scraped data files
+scraped_jobs.json
+*.json
+scraped_data/
+output/
+
+# Selenium WebDriver files
+chromedriver
+chromedriver.exe
+geckodriver
+geckodriver.exe
+*.exe
+
+# Browser profiles and cache
+browser_profile/
+.cache/
+
+# Screenshots (if any)
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# Logs
+*.log
+scraper.log
+selenium.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
