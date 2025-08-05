@@ -279,25 +279,6 @@ To switch to PostgreSQL, update the `DATABASE_URL` in `.env` and install `psycop
    - Sample jobs use placeholder URLs that don't exist
    - For real scraped jobs, URLs would point to actual job postings
 
-## 🎥 Demo Video
-
-Record a demo video showing:
-1. Backend API functionality (using Postman or curl)
-2. Frontend user interface and interactions
-3. Web scraper in action
-4. CRUD operations (Create, Read, Update, Delete)
-5. Filtering and sorting features
-
-## 🔮 Future Enhancements
-
-- User authentication and authorization
-- Job application tracking
-- Email notifications for new jobs
-- Advanced search with multiple filters
-- Job recommendation system
-- Company profiles and ratings
-- Mobile app development
-
 ## 📝 Notes and Assumptions
 
 - **Database**: Currently configured with MySQL 9.2.0 (17+ jobs populated)
@@ -334,38 +315,6 @@ Record a demo video showing:
 ## 🤝 Contributing
 
 This is a take-home project for demonstration purposes. The code is organized for clarity and maintainability, with proper error handling and user feedback throughout the application.
-
-## 🚀 **GitHub Setup**
-
-### **Before Uploading to GitHub:**
-
-1. **Environment Setup** (IMPORTANT):
-   ```bash
-   # Copy environment template and configure
-   cp backend/.env.example backend/.env
-
-   # Edit .env file with your database credentials
-   # DATABASE_URL=mysql+pymysql://root@localhost:3306/job_listing_db
-   ```
-
-2. **Initialize Git Repository**:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: Job Listing Web Application"
-   ```
-
-3. **Create GitHub Repository**:
-   - Go to GitHub and create a new repository
-   - Name it: `job-listing-web-app` or similar
-   - Don't initialize with README (we already have one)
-
-4. **Push to GitHub**:
-   ```bash
-   git remote add origin https://github.com/yourusername/job-listing-web-app.git
-   git branch -M main
-   git push -u origin main
-   ```
 
 ### **Security Notes:**
 - ✅ `.env` files are ignored (contains database credentials)
